@@ -78,16 +78,17 @@ export default function Banner(): React.JSX.Element {
             </div>
           </div>
 
-          {/* Bagian Teks Utama */}
+{/* Bagian Teks Utama */}
           <div className="flex-1 space-y-6 text-center lg:text-left order-2 lg:order-1">
             {/* Tooltip Nama di Desktop */}
             <div className="hidden lg:inline-block relative mb-8">
+              {/* Arrow Diperbaiki */}
               <Image
                 src="/assets/arrow.png"
                 alt="Arrow"
                 width={80}
                 height={80}
-                className="absolute -left-16 -top-12 rotate-[-15deg]"
+                className="absolute -left-16 -top-12 scale-x-[-1] rotate-[15deg]"
               />
               <div className="bg-white/10 backdrop-blur-md border border-white/20 px-6 py-2 rounded-2xl">
                 <p className="text-white text-lg">
