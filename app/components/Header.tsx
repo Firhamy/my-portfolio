@@ -3,55 +3,34 @@ import Image from "next/image";
 
 export default function Header(): React.JSX.Element {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-[#110720]/80 backdrop-blur-sm border-b border-white/10">
-      <nav className="px-6 py-4">
-        <div className="container mx-auto max-w-6xl flex items-center justify-between h-full">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#110720]/90 backdrop-blur-md border-b border-white/5">
+      <nav className="px-6 py-2 md:py-3"> {/* Padding vertikal dikurangi (py-2) */}
+        <div className="container mx-auto max-w-6xl flex items-center justify-between">
           <Link 
             href="/" 
-            className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
+            className="transition-opacity hover:opacity-80"
           >
-            {/* Pastikan file logo.svg tersedia di folder /public/logo/ */}
             <Image 
               src="/logo/logo.svg" 
               alt="Muhammad Firdaus Ilhamy" 
-              width={100} 
-              height={100} 
-              style={{ width: "auto", height: "auto" }} 
+              width={80} // Ukuran dasar diperkecil
+              height={32} 
+              className="w-auto h-7 md:h-8" // Logo dibuat lebih pendek (h-7)
+              priority
             />
           </Link>
-          <ul className="flex items-center gap-8 list-none m-0 p-0">
-            <li className="m-0 p-0">
-              <Link 
-                href="#home" 
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
-              >
-                Home
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link 
-                href="#about" 
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
-              >
-                About
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link 
-                href="#experience" // Mengubah #lab menjadi #experience agar sesuai dengan section sebelumnya
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
-              >
-                Experience
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link 
-                href="#contact" 
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
-              >
-                Contact
-              </Link>
-            </li>
+
+          <ul className="flex items-center gap-6 md:gap-8 list-none m-0 p-0">
+            {["Home", "About", "Experience", "Contact"].map((item) => (
+              <li key={item} className="m-0 p-0">
+                <Link 
+                  href={`#${item.toLowerCase()}`} 
+                  className="text-white/70 hover:text-purple-400 transition-colors text-xs md:text-sm font-medium tracking-wide"
+                >
+                  {item}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>
