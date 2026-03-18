@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://firhamy-porto.vercel.app", // Sesuaikan dengan domain Vercel Anda
+    url: "https://zayncomp.com", // Sesuaikan dengan domain Vercel Anda
     title: "Firdaus Ilhamy - IT Network Engineer & System Administrator",
     description: "Specializing in building and securing network infrastructure, managing MikroTik, Proxmox virtualization, and enterprise server monitoring.",
     siteName: "Firdaus Ilhamy Portfolio",
