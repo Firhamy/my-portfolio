@@ -38,6 +38,13 @@ const featuredProjects: Project[] = [
     image: "/projects/mikrotik-api.png",
     tags: ["PHP Native", "MikroTik API", "Network Security"],
   },
+  {
+    id: 5,
+    title: "IT Asset Management System (Snipe-IT)",
+    description: "Implementasi sistem manajemen aset terpusat menggunakan Snipe-IT untuk digitalisasi pelacakan inventaris IT. Proyek ini mencakup pengelolaan siklus hidup aset, pencatatan riwayat maintenance secara digital (paperless), serta monitoring lokasi perangkat secara real-time guna meningkatkan efisiensi audit dan akurasi data inventaris di seluruh departemen.",
+    image: "/projects/snipe-it.png",
+    tags: ["Snipe-IT", "Asset Management", "Inventory Control", "System Admin"],
+  },
 ];
 
 export default function Projects(): React.JSX.Element {
