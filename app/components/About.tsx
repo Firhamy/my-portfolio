@@ -6,9 +6,12 @@ export default function About(): React.JSX.Element {
     <section id="about" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <p className="text-2xl max-w-6xl mx-auto">
-            I&apos;m currently looking to join a <span className="text-purple-400">cross-functional team</span><br/> <span className="text-sm">that values 
-            improving people&apos;s lives through accessible design</span>
+          <h2 className="text-2xl lg:text-4xl font-medium text-white mb-4">
+            I specialize in building and securing <span className="text-purple-400">Network Infrastructure</span>
+          </h2>
+          <p className="text-white/60 text-lg max-w-2xl mx-auto">
+            Experienced in managing MikroTik, Proxmox virtualization, and enterprise server monitoring 
+            to ensure high availability and network security.
           </p>
         </div>
         <Image 
@@ -23,4 +26,3 @@ export default function About(): React.JSX.Element {
     </section>
   );
 }
-
