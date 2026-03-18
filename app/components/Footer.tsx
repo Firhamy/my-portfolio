@@ -18,7 +18,7 @@ export default function Footer(): React.JSX.Element {
             href="mailto:firdausilhamy@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors border-b border-purple-400/30 pb-1"
           >
-            firdausilhamy@gmail.com
+            mfirdausilhamy23@gmail.com
           </a>
         </div>
 
