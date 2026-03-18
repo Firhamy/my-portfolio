@@ -10,7 +10,14 @@ export default function Header(): React.JSX.Element {
             href="/" 
             className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
           >
-          <Image src="/logo/logo.svg" alt="Logo" width={100} height={100} style={{ width: "auto", height: "auto" }} />
+            {/* Pastikan file logo.svg tersedia di folder /public/logo/ */}
+            <Image 
+              src="/logo/logo.svg" 
+              alt="Muhammad Firdaus Ilhamy" 
+              width={100} 
+              height={100} 
+              style={{ width: "auto", height: "auto" }} 
+            />
           </Link>
           <ul className="flex items-center gap-8 list-none m-0 p-0">
             <li className="m-0 p-0">
@@ -31,10 +38,18 @@ export default function Header(): React.JSX.Element {
             </li>
             <li className="m-0 p-0">
               <Link 
-                href="#lab" 
+                href="#experience" // Mengubah #lab menjadi #experience agar sesuai dengan section sebelumnya
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
               >
-                Lab
+                Experience
+              </Link>
+            </li>
+            <li className="m-0 p-0">
+              <Link 
+                href="#contact" 
+                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+              >
+                Contact
               </Link>
             </li>
           </ul>
@@ -43,4 +58,3 @@ export default function Header(): React.JSX.Element {
     </header>
   );
 }
-
