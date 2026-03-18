@@ -10,26 +10,26 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Network & IT Support - Indoseiki",
-    description: "Mengelola infrastruktur jaringan Dual ISP, optimasi MikroTik, dan pemeliharaan server Proxmox serta Synology NAS untuk operasional pabrik.",
+    title: "Senior IT Infrastructure & System Administrator — PT Indoseiki Metal Utama",
+    description: "Memimpin pengelolaan infrastruktur Proxmox VE, server Linux (Ubuntu/Debian), dan otomatisasi backup. Bertanggung jawab atas ketersediaan sistem internal (Nginx/MariaDB), deployment Nextcloud, serta implementasi monitoring real-time menggunakan Prometheus & Grafana.",
     icon: "/assets/circle.png",
   },
   {
     id: 2,
-    title: "Server Monitoring Integration",
-    description: "Implementasi Node Exporter, Prometheus, dan Grafana untuk monitoring performa VM server secara real-time.",
+    title: "Senior IT Network Engineer — PT Indoseiki Metal Utama",
+    description: "Merancang dan mengoptimasi infrastruktur jaringan Dual ISP, segmentasi jaringan (VLAN/IP Addressing), serta penguatan keamanan melalui manajemen Firewall dan VPN. Melakukan capacity planning untuk memastikan konektivitas pabrik tetap stabil dan minim latency.",
     icon: "/assets/circle.png",
   },
   {
-    id: 3,
-    title: "IP CCTV System Implementation",
-    description: "Instalasi dan konfigurasi sistem CCTV Hikvision berbasis IP Statik dengan integrasi Hik-Connect untuk akses remote.",
+    id: 3, // ID disesuaikan urutannya
+    title: "Freelance Computer Technician — ZaynComp",
+    description: "Menyediakan jasa konsultasi teknis, optimasi performa hardware (repasting/upgrade), serta maintenance preventif untuk klien retail dan korporat guna memastikan perangkat bekerja maksimal.",
     icon: "/assets/circle.png",
   },
   {
     id: 4,
-    title: "Enterprise Messaging System",
-    description: "Implementasi server Openfire terintegrasi LDAP untuk sistem komunikasi internal admin yang aman.",
+    title: "IT Technician & Assistant Lecturer — Universitas Amikom Yogyakarta",
+    description: "Mengelola laboratorium komputer kampus, instalasi jaringan lokal, serta mendampingi mahasiswa dalam praktikum Jaringan Komputer sebagai asisten dosen.",
     icon: "/assets/circle.png",
   },
 ];
