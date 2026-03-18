@@ -12,34 +12,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Firdaus Ilhamy | IT Network Engineer & System Administrator",
+  description: "Professional Portfolio of Muhammad Firdaus Ilhamy - IT Network Engineer at PT. Indoseiki Metal Utama. Expert in MikroTik, Proxmox, and Infrastructure Monitoring.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
-    "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
+    "Muhammad Firdaus Ilhamy",
+    "Firdaus Ilhamy",
+    "IT Network Engineer",
+    "System Administrator",
+    "MikroTik Expert",
+    "Proxmox Virtualization",
+    "Network Security",
+    "PT Indoseiki Metal Utama",
+    "Infrastructure Monitoring",
     "Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Muhammad Firdaus Ilhamy" }],
+  creator: "Muhammad Firdaus Ilhamy",
+  publisher: "Muhammad Firdaus Ilhamy",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    url: "https://firhamy-porto.vercel.app", // Sesuaikan dengan domain Vercel Anda
+    title: "Firdaus Ilhamy - IT Network Engineer & System Administrator",
+    description: "Specializing in building and securing network infrastructure, managing MikroTik, Proxmox virtualization, and enterprise server monitoring.",
+    siteName: "Firdaus Ilhamy Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Firdaus Ilhamy - IT Network Engineer",
+    description: "IT Professional specializing in Network Infrastructure and System Administration.",
   },
   robots: {
     index: true,
@@ -68,7 +69,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        {/* Update link canonical ke domain Vercel Anda */}
+        <link rel="canonical" href="https://firhamy-porto.vercel.app" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
