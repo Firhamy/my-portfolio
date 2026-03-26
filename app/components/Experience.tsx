@@ -10,13 +10,13 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Senior IT Infrastructure & System Administrator — PT Indoseiki Metal Utama",
+    title: "Senior IT Infrastructure & System Administrator — PT Indoseiki Metalutama",
     description: "Memimpin pengelolaan infrastruktur Proxmox VE, server Linux (Ubuntu/Debian), dan otomatisasi backup. Bertanggung jawab atas ketersediaan sistem internal (Nginx/MariaDB), deployment Nextcloud, serta implementasi monitoring real-time menggunakan Prometheus & Grafana.",
     icon: "/assets/ism.png",
   },
   {
     id: 2,
-    title: "Senior IT Network Engineer — PT Indoseiki Metal Utama",
+    title: "Senior IT Network Engineer — PT Indoseiki Metalutama",
     description: "Merancang dan mengoptimasi infrastruktur jaringan Dual ISP, segmentasi jaringan (VLAN/IP Addressing), serta penguatan keamanan melalui manajemen Firewall dan VPN. Melakukan capacity planning untuk memastikan konektivitas pabrik tetap stabil dan minim latency.",
     icon: "/assets/ism.png",
   },
