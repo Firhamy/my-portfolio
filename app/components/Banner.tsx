@@ -134,7 +134,7 @@ export default function Banner(): React.JSX.Element {
           <div className="space-y-4">
             <p className="text-base md:text-lg lg:text-xl text-white/90 flex flex-wrap items-center justify-center lg:justify-start gap-x-2">
               <span>Currently, I&apos;m an IT Network Engineer at</span>
-              <span className="text-blue-400 font-semibold border-b border-blue-400/30">PT. Indoseiki Metal Utama</span>
+              <span className="text-blue-400 font-semibold border-b border-blue-400/30">PT. Indoseiki Metalutama</span>
             </p>
             
             <p className="text-sm md:text-base text-white/70 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
